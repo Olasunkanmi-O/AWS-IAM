@@ -5,9 +5,9 @@ The challenge here is to create 2 users each belonging to each of the groups on 
 ![](./img/00.choose-the-service.png)
 2. select user groups from the side bar menu
 ![](./img/01.click.png)
-3. Give a name to the group and create the group
+3. Give a name to the group and create the group, in our case, the groups are DevOps and Staff.
 ![](./img/02create-group.png)
-4. Attach the required policy(ies) the group as required or as needed, in the case of this assignment, adminisrator access policy was the required policy for the DevOps group while Readonly access was for the Staff group
+4. Attach the required policy(ies) to the group as required or as needed, in the case of this assignment, administrator access policy was the required policy for the DevOps group while ReadOnly access was for the Staff group
 ![](./img/03attach%20policy.png)
 5. Create the second group as well and attach the required policies just like before
 ![](./img/05staff-group.png)
@@ -19,5 +19,5 @@ Create the second user Paul, add him to the Staff group.
 ![](./img/10John-instance.png)
 8. Confirm if Paul also has the access by creating an EC2 instance with his profile as well.
 ![](./img/11Paul-denied.png)
-9. John was able to spin up instances while Paul was denied access to launch however, he could view created instances.
+9. John was able to spin up instances while Paul was denied access to launch, however, he could view created instances and other resources
 10. Clean up used resources
